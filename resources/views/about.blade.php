@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+@extends('layouts.app')
+
+@section('content')
+    <h1>Qui sommes-nous ?</h1>
+    <p>Page de présentation</p>
+@endsection
+
 </body>
 </html>

@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+@extends('layouts.app') {{-- si tu utilises un layout --}}
+
+@section('content')
+    <h1>Contact</h1>
+    <p>Page de contact</p>
+@endsection
 </body>
 </html>

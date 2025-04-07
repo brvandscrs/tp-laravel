@@ -273,5 +273,9 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+
+        <a href="{{ url('/contact') }}">Contact</a> |
+        <a href="{{ url('/qui-sommes-nous') }}">Qui sommes-nous ?</a>
+
     </body>
 </html>
